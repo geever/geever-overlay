@@ -22,5 +22,4 @@ DEPEND="
 RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
