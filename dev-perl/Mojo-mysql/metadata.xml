@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>geever@users.sourceforge.net</email>
+    <name>Tamás Fehérvári</name>
+  </maintainer>
+  <longdescription lang="en">
+    Mojolicious and Async MySQL/MariaDB
+  </longdescription>
+  <upstream>
+    <remote-id type="cpan">Mojo-mysql</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql::Database</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql::Migrations</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql::PubSub</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql::Results</remote-id>
+    <remote-id type="cpan-module">Mojo::mysql::Transaction</remote-id>
+    <remote-id type="cpan-module">SQL::Abstract::mysql</remote-id>
+  </upstream>
+</pkgmetadata>
