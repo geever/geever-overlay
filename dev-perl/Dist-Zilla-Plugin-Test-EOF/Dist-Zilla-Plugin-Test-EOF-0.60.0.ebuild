@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Data-Section
 	>=dev-perl/Dist-Zilla-6.0.0
-	>=dev-perl/Moose-3.140.0
+	>=dev-perl/Moose-2.140.0
 	>=dev-perl/namespace-autoclean-0.180.0
 	dev-perl/Sub-Exporter-ForMethods
 	>=dev-perl/Test-EOF-0.80.300
