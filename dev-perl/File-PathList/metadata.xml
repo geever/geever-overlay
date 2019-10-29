@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>geever@users.sourceforge.net</email>
+		<name>Tamás Fehérvári</name>
+	</maintainer>
+	<use>
+		<flag name="test">Run unittests on installing</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">File-PathList</remote-id>
+		<remote-id type="cpan-module">File::PathList</remote-id>
+	</upstream>
+</pkgmetadata>
