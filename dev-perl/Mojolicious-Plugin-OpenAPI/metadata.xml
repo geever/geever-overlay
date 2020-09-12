@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>geever@users.sourceforge.net</email>
+        <name>Tamás Fehérvári</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="cpan">Mojolicious-Plugin-OpenA</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::Guides::OpenAPIv2</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::Guides::OpenAPIv3</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::Guides::Swagger2</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::Cors</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::Security</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Plugin::OpenAPI::SpecRenderer</remote-id>
+    </upstream>
+</pkgmetadata>
