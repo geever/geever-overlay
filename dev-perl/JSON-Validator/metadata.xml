@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>geever@users.sourceforge.net</email>
+        <name>Tamás Fehérvári</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="cpan">JSON-Validator</remote-id>
+        <remote-id type="cpan-module">JSON::Validator</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Error</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Formats</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Joi</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Ref</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Schema</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Schema::Draft4</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Schema::Draft5</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Schema::Draft6</remote-id>
+        <remote-id type="cpan-module">JSON::Validator::Util</remote-id>
+    </upstream>
+</pkgmetadata>
