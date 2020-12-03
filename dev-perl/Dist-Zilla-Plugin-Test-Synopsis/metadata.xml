@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>geever@users.sourceforge.net</email>
+		<name>Tamás Fehérvári</name>
+	</maintainer>
+	<use>
+		<flag name="test">Author tests for synopses</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Dist-Zilla-Plugin-Test-Synopsis</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Plugin::Test::Synopsis</remote-id>
+	</upstream>
+</pkgmetadata>
