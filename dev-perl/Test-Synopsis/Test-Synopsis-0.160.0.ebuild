@@ -15,7 +15,7 @@ KEYWORDS="amd64 ~ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Pod-Simple-3.90.0
+	>=virtual/perl-Pod-Simple-3.90.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
