@@ -1062,3 +1062,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 LICENSE="Apache-2.0 BSD-2 BSD ISC MIT MPL-2.0"
+
+GOBIN=${D}/usr/bin
