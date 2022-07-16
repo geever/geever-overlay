@@ -16,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Dist-Zilla-4.300.39
+	dev-perl/Dist-Zilla-Role-ModuleMetadata
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "

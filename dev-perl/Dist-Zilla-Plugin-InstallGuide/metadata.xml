@@ -6,7 +6,7 @@
 		<name>Tamás Fehérvári</name>
 	</maintainer>
 	<use>
-		<flag name="test">Build an INSTALL file</flag>
+		<flag name="test">Run tests</flag>
 	</use>
 	<upstream>
 		<remote-id type="cpan">Dist-Zilla-Plugin-InstallGuide</remote-id>
