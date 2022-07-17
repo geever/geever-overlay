@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>geever@users.sourceforge.net</email>
+		<name>Tamás Fehérvári</name>
+	</maintainer>
+	<use>
+		<flag name="test">Run tests</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Git-Repository-Plugin-Log</remote-id>
+		<remote-id type="cpan-module">Git::Repository::Plugin::Log</remote-id>
+	</upstream>
+</pkgmetadata>
