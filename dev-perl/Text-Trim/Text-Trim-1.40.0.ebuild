@@ -1,10 +1,10 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
-DIST_AUTHOR=MATTLAW
-DIST_VERSION=1.02
+DIST_AUTHOR=RJT
+DIST_VERSION=1.04
 
 inherit perl-module
 
@@ -13,9 +13,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-DEPEND="
-	dev-perl/Module-Build
-"
 RDEPEND="
-	virtual/perl-Exporter
+	>=dev-lang/perl-5.6
+"
+
+BDEPEND="
+	virtual/perl-ExtUtils-MakeMaker
 "

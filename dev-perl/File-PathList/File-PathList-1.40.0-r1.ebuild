@@ -1,7 +1,7 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DIST_AUTHOR=ADAMK
 DIST_VERSION=1.04
@@ -17,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Params-Util-0.240.0
 "
-DEPEND="${RDEPEND}
+
+BDEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 "

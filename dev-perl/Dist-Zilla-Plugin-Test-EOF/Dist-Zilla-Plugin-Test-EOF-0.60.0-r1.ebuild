@@ -1,7 +1,7 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DIST_AUTHOR=CSSON
 DIST_VERSION=0.0600
@@ -22,7 +22,8 @@ RDEPEND="
 	dev-perl/Sub-Exporter-ForMethods
 	>=dev-perl/Test-EOF-0.80.300
 "
-DEPEND="${RDEPEND}
+
+BDEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	test? (
 		dev-perl/File-pushd

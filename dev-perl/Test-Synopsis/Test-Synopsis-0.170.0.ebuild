@@ -1,28 +1,28 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-DIST_AUTHOR=DOHERTY
-DIST_VERSION=2.000007
+DIST_AUTHOR=ZOFFIX
+DIST_VERSION=0.17
 
 inherit perl-module
 
-DESCRIPTION="Author tests for synopses"
+DESCRIPTION="Test your SYNOPSIS code"
 
 SLOT="0"
 KEYWORDS="amd64 ~ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-4.0.0
-	dev-perl/Moose
-	dev-perl/Test-Synopsis
+	>=dev-lang/perl-5.8.1
+	>=virtual/perl-Pod-Simple-3.90.0
 "
-DEPEND="${RDEPEND}
+
+BDEPEND="
+	>=dev-lang/perl-5.8.1
 	virtual/perl-ExtUtils-MakeMaker
 	test? (
-		dev-perl/Test-Output
 		virtual/perl-File-Spec
 	)
 "

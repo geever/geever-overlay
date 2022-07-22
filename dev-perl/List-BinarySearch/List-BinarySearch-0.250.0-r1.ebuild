@@ -1,7 +1,7 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DIST_AUTHOR=DAVIDO
 DIST_VERSION=0.25
@@ -13,13 +13,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test xs"
 
-DEPEND="
-	virtual/perl-ExtUtils-MakeMaker
-"
 RDEPEND="
 	xs? (
 		dev-perl/List-BinarySearch-XS
 	)
+"
+
+BDEPEND="
+	virtual/perl-ExtUtils-MakeMaker
 "
 
 src_configure() {
