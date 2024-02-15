@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>geever@users.sourceforge.net</email>
+        <name>Tamás Fehérvári</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="cpan">Gedcom</remote-id>
+        <remote-id type="cpan-module">Gedcom</remote-id>
+        <remote-id type="cpan-module">Gedcom::CGI</remote-id>
+        <remote-id type="cpan-module">Gedcom::Comparison</remote-id>
+        <remote-id type="cpan-module">Gedcom::Event</remote-id>
+        <remote-id type="cpan-module">Gedcom::Family</remote-id>
+        <remote-id type="cpan-module">Gedcom::Grammar</remote-id>
+        <remote-id type="cpan-module">Gedcom::Individual</remote-id>
+        <remote-id type="cpan-module">Gedcom::Item</remote-id>
+        <remote-id type="cpan-module">Gedcom::Lifelines</remote-id>
+        <remote-id type="cpan-module">Gedcom::Record</remote-id>
+        <remote-id type="cpan-module">Gedcom::WebServices</remote-id>
+    </upstream>
+</pkgmetadata>
