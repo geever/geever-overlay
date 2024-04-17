@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,12 +17,14 @@ inherit chromium-2 desktop linux-info optfeature unpacker xdg
 DESCRIPTION="All-in-one voice and text chat for gamers"
 HOMEPAGE="https://discordapp.com"
 SRC_URI="https://dl.discordapp.net/apps/linux/${MY_PV}/${MY_PN}-${MY_PV}.tar.gz"
+S="${WORKDIR}/${MY_PN^}"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="amd64"
-RESTRICT="bindist mirror strip test"
+
 IUSE="appindicator +seccomp"
+RESTRICT="bindist mirror strip test"
 
 RDEPEND="
 	>=app-accessibility/at-spi2-core-2.46.0:2
@@ -61,8 +63,6 @@ DESTDIR="/opt/${MY_PN}"
 QA_PREBUILT="*"
 
 CONFIG_CHECK="~USER_NS"
-
-S="${WORKDIR}/${MY_PN^}"
 
 src_unpack() {
 	unpack ${MY_PN}-${MY_PV}.tar.gz
@@ -128,6 +128,8 @@ src_install() {
 pkg_postinst() {
 	xdg_pkg_postinst
 
+	optfeature_header "Install the following packages for additional support:"
 	optfeature "sound support" \
 		media-sound/pulseaudio media-sound/apulse[sdk] media-video/pipewire
+	optfeature "emoji support" media-fonts/noto-emoji
 }
