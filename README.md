@@ -7,7 +7,7 @@ Usage: create a config file in `/etc/portage/repos.conf/` with the following con
 ```
 [geever-overlay]
 
-location = /usr/local/portage/geever-overlay
+location = /var/db/repos/geever-overlay
 sync-type = git
 sync-uri = https://github.com/geever/geever-overlay.git
 priority = 50
