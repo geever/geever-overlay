@@ -17,4 +17,8 @@ EBUILD_WAYLAND=false
 	--enable-wayland-ime
 )
 
+
+# https://bugs.gentoo.org/905289
+@@DESTDIR@@/disable-breaking-updates.py
+
 @@DESTDIR@@/Discord "${discord_parameters[@]}" "$@"
